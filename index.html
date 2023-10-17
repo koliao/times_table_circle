@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Circle time table</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <div class="rootContainer">
+        <canvas id="drawCanvas"></canvas>
+    </div>
+    <div class="controls">
+        <label for="nInput">N points</label>
+        <input
+            id="nInput"
+            type="number"
+            value="100"
+        ></input>
+        <label for="multValueInput">mult value</label>
+        <input
+            id="multValueInput"
+            type="number"
+            value="2"
+            step="0.1"
+        ></input>
+        <label for="linesColor">color</label>
+        <input
+            id="linesColor"
+            type="color"
+            value="#ffaa00"
+        ></input>
+        <label for="showPoints">show points</label>
+        <input
+            id="showPoints"
+            type="checkbox"
+            value="show points"
+        ></input>
+        <label for="autoIncrease">auto increase mult</label>
+        <input
+            id="autoIncrease"
+            type="checkbox"
+            value="auto increase"
+        ></input>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
