@@ -1,5 +1,7 @@
 # Times table circle
 
+<img src="./screenshot.png" width=600px/>
+
 Given $N$ points distributed equally on a circle perimeter, this program connects each point with the corresponding multiple of that point, if we provide that multiple
 
 By default the multiple $M$ is $2$, so the point $0$ gets connected with $0$, the point $1$ with $2$, the $2$ with $4$ and so on  
